@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>API Defenders</title>
+</head>
+<body>
+    
+    <div class="container-fluid bg-dark p-5">
+        <h1 class="display-4 text-center text-light m-5">API FCBarcelona</h1>
+        <p class="lead text-light text-center">
+            Jugadores Defensores del FCBarcelona
+        </p>
+        <hr class="text-light">
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ULISESAFCDEV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5 mb-5">
+        
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center mb-5">Informacion de la plantilla</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-8">
+                <table class="table-responsive-md table table-bordered text-center table-data">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>NOMBRE</th>
+                            <th>PAIS</th>
+                            <th>DORSAL</th>
+                            <TH></TH>
+                        </tr>
+                    </thead>
+                    
+                    <tbody></tbody>
+                </table>
+            </div>
+            
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="text-center m-2 crud-title">Registro de plantilla</h5>
+                    </div>
+                    <form action="" class="crud-form">
+                        <input type="hidden" name="id">
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre:</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="country" class="form-label">Pais:</label>
+                                <input type="text" id="country" name="country" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="dorsal" class="form-label">Dorsal:</label>
+                                <input type="text" id="dorsal" name="dorsal" class="form-control">
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <input type="submit" class="btn btn-success btn-sm" value="Guardar Datos">                                    
+                                </div>                             
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- TEMPLATE HTML -->
+    
+    <template id="template-table">
+        <tr>
+            <td class="id"></td>
+            <td class="name"></td>
+            <td class="country"></td>
+            <td class="dorsal"></td>
+            <td>
+                <button class="btn btn-sm btn-info btnEdit"><i class='bx bx-reset'></i></button>
+                <button class="btn btn-sm btn-danger btnDelete"><i class='bx bxs-trash-alt'></i></button>
+            </td>
+        </tr>
+    </template>
+    
+    <!--  -->
+    
+    <div class="container-fluid mt-5 p-5 bg-dark text-center">
+        
+        <p class="lead text-light">Creado con mucho 🔥<a href="https://github.com/ulisesafcdev" target="blank" class="nav-link text-light">@ulisesafcdev</a></p>
+        
+    </div>
+    
+    <script src="js/apiDefenders.js" type="module"></script>
+</body>
+</html>

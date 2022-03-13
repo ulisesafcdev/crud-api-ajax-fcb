@@ -1,0 +1,172 @@
+{
+  "goalkeepers": [
+    {
+      "id": 1,
+      "name": "Marc-André Ter Stegen",
+      "country": "Germany",
+      "dorsal": "1"
+    },
+    {
+      "id": 2,
+      "name": "Norberto Murara Neto",
+      "country": "Brazil",
+      "dorsal": "13"
+    }
+  ],
+  "defenders": [
+    {
+      "id": 1,
+      "name": "Sergiño Dest",
+      "country": "United Statet of America",
+      "dorsal": "2"
+    },
+    {
+      "id": 2,
+      "name": "Gerard Piqué",
+      "country": "Spain",
+      "dorsal": "3"
+    },
+    {
+      "id": 3,
+      "name": "Ronald Araujo",
+      "country": "Uruguay",
+      "dorsal": "4"
+    },
+    {
+      "id": 4,
+      "name": "Dani Alves",
+      "country": "Brazil",
+      "dorsal": "8"
+    },
+    {
+      "id": 5,
+      "name": "Lenglet Clément",
+      "country": "France",
+      "dorsal": "15"
+    },
+    {
+      "id": 6,
+      "name": "Jordi Alba",
+      "country": "Spain",
+      "dorsal": "18"
+    },
+    {
+      "id": 7,
+      "name": "Oscar Mingueza",
+      "country": "Spain",
+      "dorsal": "22"
+    },
+    {
+      "id": 8,
+      "name": "Samuel Umtiti",
+      "country": "France",
+      "dorsal": "23"
+    },
+    {
+      "id": 9,
+      "name": "Eric Garcia",
+      "country": "Spain",
+      "dorsal": "24"
+    }
+  ],
+  "midfielders": [
+    {
+      "id": 1,
+      "name": "Sergio Busquets",
+      "country": "Spain",
+      "dorsal": "5"
+    },
+    {
+      "id": 2,
+      "name": "Riqui Puig",
+      "country": "Spain",
+      "dorsal": "6"
+    },
+    {
+      "id": 3,
+      "name": "Nico Gonzáles",
+      "country": "Spain",
+      "dorsal": "14"
+    },
+    {
+      "id": 4,
+      "name": "Pedri",
+      "country": "Spain",
+      "dorsal": "16"
+    },
+    {
+      "id": 5,
+      "name": "Sergi Roberto",
+      "country": "Spain",
+      "dorsal": "20"
+    },
+    {
+      "id": 6,
+      "name": "Frenkie De Jong",
+      "country": "Netherlands",
+      "dorsal": "21"
+    },
+    {
+      "name": "Frank Kessie",
+      "country": "Africa",
+      "dorsal": "99",
+      "id": 7
+    }
+  ],
+  "forwards": [
+    {
+      "id": 1,
+      "name": "Ousmane Dembélé",
+      "country": "France",
+      "dorsal": "7"
+    },
+    {
+      "id": 2,
+      "name": "Memphis",
+      "country": "Netherlands",
+      "dorsal": "9"
+    },
+    {
+      "id": 3,
+      "name": "Ansu Fati",
+      "country": "Spain",
+      "dorsal": "10"
+    },
+    {
+      "id": 4,
+      "name": "Adama traoré",
+      "country": "Spain",
+      "dorsal": "11"
+    },
+    {
+      "id": 5,
+      "name": "Martin Braithwaite",
+      "country": "Denmark",
+      "dorsal": "12"
+    },
+    {
+      "id": 6,
+      "name": "Luuk de Jong",
+      "country": "Netherlands",
+      "dorsal": "7"
+    },
+    {
+      "id": 7,
+      "name": "Ferran Torres",
+      "country": "Spain",
+      "dorsal": "19"
+    },
+    {
+      "id": 8,
+      "name": "Pierre-Emerick Aubameyang",
+      "country": "Gabón",
+      "dorsal": "25"
+    },
+    {
+      "name": "Erling Haaland",
+      "country": "UN",
+      "dorsal": "20",
+      "id": 9
+    }
+  ]
+}
